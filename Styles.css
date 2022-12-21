@@ -1,0 +1,135 @@
+
+
+html {
+  background-color: black;
+  color:white;
+  
+}
+header {
+  position: top;
+}
+
+body {
+  position: fixed;
+}
+
+#nav-bar {
+  position: top;
+  
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+#header {
+  text-align: left;
+  font-size: 35px;
+}
+
+.mailinglist {
+  text-align: center;
+}
+.bronze {
+  border-width:3px;
+  border-style: solid;
+  border-color:#FF0000;
+  padding: 1em;
+  width: 27%
+
+
+}
+
+.first {
+  text-align: center;
+}
+
+h2 {
+  color: red;
+}
+ .silver {
+   border-width: 3px;
+   border-style: solid;
+   border-color: #ff0000;
+   padding: 1em;
+   width: 27%;
+
+ }
+
+ .inline-child {
+   display: inline-block;
+ }
+
+.gold {
+  border-width: 3px;
+   border-style: solid;
+   border-color: #ff0000;
+   padding: 1em;
+   width: 27%;
+}
+ 
+.features {
+  border-width: 3px;
+   border-style: solid;
+   border-color: #ff0000;
+   padding: 1em;
+   width: 100%;
+}
+
+.reviews {
+  border-width: 3px;
+   border-style: solid;
+   border-color: #ff0000;
+   padding: 1em;
+   width: 100%;
+}
+
+.pricing {
+  border-width: 3px;
+   border-style: solid;
+   border-color: #ff0000;
+   padding: 1em;
+   width: 100%;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+.flex-container {
+  display: flex;
+}
+
+
+
